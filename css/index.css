@@ -1,0 +1,61 @@
+:root {
+    --main-bg-color:#874C00;
+}
+
+body,header,main,footer,p,nav {
+    margin: 0;
+    padding: 0;
+}
+
+header .logo {
+    display: flex;
+    background: var(--main-bg-color);
+    justify-content: space-around;
+}
+
+header .logo .logo-img {
+    height: 100px;
+    border-radius: 25%;
+    margin: 5px 0 5px 10px;
+}
+
+header .logo .logo-name {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    align-self: center;
+    margin: 10px;
+    color: white;
+    text-align: right;
+}
+
+@media(min-width:500px) { 
+    header .logo {
+        justify-content:normal;
+    }
+    header .logo .logo-name {
+        text-align: left;
+    }
+}
+
+main .                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
+    max-width: 320px;
+    border: 1px black solid; 
+    margin: 10px;
+}
+
+main .beer-card .beer-name {
+    font-size: 32px;
+    text-align: center;
+}
+
+main .beer-card .beer-description-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+}
+
+main .beer-card .beer-img{
+    height: 128px;
+}
